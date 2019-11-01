@@ -1,0 +1,450 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#availble div h2 {
+    padding-top: 140PX;
+    color: #233148;
+    font-size: 30px;
+    line-height: 60px;
+    font-family: "Myriad Pro", sans-serif;
+}
+
+
+footer {
+    background: #233148;
+    color: white;
+    height: 82px;
+    margin-top: 60px;
+}
+
+footer div p {position: relative;top: 40px;font-size: 16px;font-family: "Myriad Pro", sans-serif;}
+
+footer ul li a img {
+    float: left;
+    padding-left: 43px;
+    position: relative;
+    bottom: -7px;
+    left: 70%;
+}
+
+#get-in-touch input {
+    height: 50px;
+    width: 432px;
+    margin-right: 40px;
+    border: none;
+    background: #f6f7fb;
+}
+
+#get-in-touch button {
+    cursor: pointer;
+    height: 50px;
+    width: 167px;
+    color: #233148;
+    font-size: 19px;
+    font-weight: bold;
+    border: none;
+    background: #33d2fd;
+    text-transform: uppercase;
+    font-family: "Myriad Pro", sans-serif;
+}
+
+#get-in-touch form {
+    padding-top: 40px;
+    text-align: center;
+}
+
+#get-in-touch > p {
+    font-size: 20px;
+    line-height: 27px;
+    color: #9a9ba5;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Myriad Pro", sans-serif;
+}
+
+#links div ul {
+    margin-top: 40px;
+}
+
+#links  div h3 {color: #233148;font-size: 21px;font-family: "Myriad Pro", sans-serif;}
+
+#availble .container > a {
+    position: absolute;
+    height: 60px;
+    width: 360px;
+    background-image: linear-gradient(to bottom ,#ff796f,#f84979);
+    border-radius: 6px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    font-family: "Myriad Pro", sans-serif;
+    font-weight: bold;
+    bottom: -125px;
+    left: 39%;
+    text-shadow: 1px 0px 1px white;
+}
+
+#availble .container  ul li a img {
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    padding-top: 25px;
+    padding-right: 50px;
+}
+
+#availble .container p {
+    font-size: 15px;
+    line-height: 27px;
+    font-family: "Myriad Pro", sans-serif;
+    color: white;
+}
+
+#availble .container img {
+    padding-left: 220px;
+}
+
+#availble .container div {padding-left: 168px;}
+
+#everything div {
+    padding-left: 80px;
+}
+
+#everything div p {
+    font-size: 14px;
+    line-height: 27px;
+    color: #6a6d89;
+    font-family: "Myriad Pro", sans-serif;
+}
+
+#everything H2 {
+    color: #233148;
+    font-size: 30px;
+    line-height: 60px;
+    font-family: "Myriad Pro", sans-serif;
+}
+
+div#everything {
+    display: flex;
+    max-width: 1150px;
+    margin: 0px auto;
+    margin-bottom: 70px;
+}
+
+
+div#availble {display: flex;}
+
+div#availble {
+    padding-bottom: 107px;
+    background: url(images/bg.png) no-repeat;
+    background-color: #0fd5ef;
+    background-size: cover;
+    background-position: center center;
+}
+@font-face {
+  font-family: "Myriad Pro";
+  src: url(fonts/myriadpro-light.otf);
+}
+@font-face {
+  font-family: "Myriad Pro";
+  font-weight: bold;
+  src: url(fonts/myriadpro-bold.otf);
+}
+@font-face {
+  font-family: "WorkSans Bold";
+  font-weight: bold;
+  src: url(fonts/WorkSans-Bold.otf);
+}
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+#links div ul li a {
+    font-size: 20px;
+    line-height: 37px;
+    color: #6a6d89;
+    text-align: right;
+    font-family: "Myriad Pro", sans-serif;
+}
+
+#everything ul li {
+    padding-bottom: 20px;
+}
+
+#everything ul li a {
+    font-size: 15px;
+    color: #233148;
+    font-family: "WorkSans Bold", sans-serif;
+}
+
+span.icon {padding-right: 22px;position: relative;top: 6px;}
+
+.container {
+	max-width: 1150px;
+	margin: 0px auto;
+}
+
+div#get-in-touch h2 {
+    color: #233148;
+    font-size: 30px;
+    line-height: 60px;
+    font-family: "Myriad Pro", sans-serif;
+    text-align: center;
+}
+
+div#get-in-touch {margin-top: 99px;}
+
+div#links {padding-top: 110px;display: flex;justify-content: space-between;}
+
+#availble .container {padding-top: 70px;display: flex;position: relative;max-width: 1150px;justify-content: space-between;}
+
+#links .container h2 {
+	color: #233148;
+	font-size: 30px;
+	line-height: 60px;
+	font-family: "Myriad Pro", sans-serif;
+	padding-top: 140px;
+}
+
+#hero {
+	height: 1000px;
+	padding-top: 48px;
+	background-color: #0fd5ef;
+	background-image: url(images/wave.png), url(images/smartphone.png), url(images/bg.png);
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-size: 100%, auto, cover;
+	background-position: center bottom, center bottom -77px, center bottom;
+}
+header {
+	height: 40px;
+	line-height: 40px;
+	display: flex;
+	justify-content: space-between;
+}
+header img {
+	display: inline-block;
+}
+header ul li {
+	display: inline-block;
+}
+header ul li a {
+	font-size: 16px;
+	color: white;
+	padding: 0px 30px;
+	font-family: "Myriad Pro", sans-serif;
+	font-weight: bold;
+}
+header ul li a:last-child {
+	padding-right: 0px;
+}
+#hero h1 {
+	width: 575px;
+	text-align: center;
+	font-size: 45px;
+	line-height: 60px;
+	font-weight: bold;
+	font-family: "WorkSans Bold", sans-serif;
+	color: white;
+    margin: 134px auto 0px auto;
+}
+#hero h2 {
+	width: 575px;
+	text-align: center;
+	font-size: 15px;
+	line-height: 27px;
+	font-family: "Myriad Pro", sans-serif;
+	color: white;
+    margin: 0px auto;
+    margin-top: 15px;
+    font-weight: normal;
+}
+#hero #actions a {
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 5px;
+	padding: 0px 32px;
+	font-size: 14px;
+	font-family: "WorkSans Bold", sans-serif;
+	color: #233148;
+	margin-left: 13px;
+	margin-right: 13px;
+}
+#hero #actions {
+	text-align: center;
+	margin-top: 41px;
+}
+#hero #actions a:first-child {
+	background-color: white;
+}
+#hero #actions a:nth-child(2){
+	border: 1px solid white;
+	color: white;
+}
+
+/** features **/
+
+#features {
+	background-color: #fafafc;
+	height: 1095px;
+}
+#features .container {
+	display: flex;
+	justify-content: space-between;
+}
+
+#features #phone-image > img {
+	margin-top: 290px;
+	margin-left: 110px;
+}
+
+#feature-list {
+	position: relative;
+}
+#feature-list div {
+	position: absolute;
+	background-color: white;
+	width: 270px;
+	height: 320px;
+	border-radius: 5px;
+	box-shadow: 0px 6px 9px rgba(35, 39, 47, 0.1);
+	margin-bottom: 20px;
+	padding: 60px 30px 34px 30px;
+}
+#feature-list div:nth-child(1){
+	right: 370px;
+	top: 117px;
+}
+#feature-list div:nth-child(2){
+	right: 38px;
+	top: 213px;
+}
+#feature-list div:nth-child(3){
+	right: 437px;
+	top: 511px;
+}
+#feature-list div:nth-child(4){
+	right: 87px;
+	top: 635px;
+}
+
+#feature-list div img {
+    margin: 0px auto;
+    display: block;
+}
+#feature-list div h3 {
+	text-align: center;
+	font-size: 14px;
+	line-height: 27px;
+	color: #233148;
+	margin-top: 29px;
+	margin-bottom: 16px;
+}
+#feature-list div p {
+	text-align: center;
+	font-size: 14px;
+	line-height: 27px;
+	color: #6a6d89;
+}
+
+/** stable **/
+#stable {
+	padding-top: 83px;
+	padding-bottom: 103px;
+	display: flex;
+	justify-content: space-between;
+	height: 625px;
+}
+
+#stable > div {
+	width: 470px;
+}
+#stable > ul {
+	width: 570px;
+}
+#stable > div > h2 {
+	margin-top: 48px;
+	text-align: right;
+}
+#stable > div > p {
+	font-size: 14px;
+	line-height: 27px;
+	color: #6a6d89;
+	text-align: right;
+	margin-top: 31px;
+	margin-bottom: 53px;
+	font-family: "Myriad Pro", sans-serif;
+}
+#stable > div > div {
+	text-align: right;
+}
+#stable > div > div > a {
+	display: inline-block;
+	height: 50px;
+	line-height: 50px;
+	color: white;
+	background-color: #33d2fd;
+	padding: 0px 44px;
+	border-radius: 5px;
+	font-size: 15px;
+	font-family: "WorkSans Bold", sans-serif;
+}
+
+#stable ul li p {
+	display: none;
+	padding-left: 80px;
+	padding-right: 10px;
+	font-size: 14px;
+	line-height: 27px;
+	color: white;
+	font-family: "WorkSans Bold", sans-serif;
+}
+
+#stable li {
+	margin-bottom: 20px;
+	box-shadow: 0px 6px 9px rgba(35, 39, 47, 0.1);
+	border-radius: 4px;
+}
+#stable li a {
+	line-height: 75px;
+	padding-left: 80px;
+	font-size: 15px;
+	color: #233148;
+	font-family: "WorkSans Bold", sans-serif;
+	background-repeat: no-repeat;
+    display: inline-block;
+    height: 75px;
+    width: 100%;
+    background-position: 26px center;
+}
+#stable li:nth-child(1) a {
+	background-image: url(images/heart.png);
+}
+#stable li:nth-child(2) a {
+	background-position: 34px center;
+	background-image: url(images/tag.png);
+}
+#stable li:nth-child(3) a {
+	background-image: url(images/brifcase.png);
+}
+#stable li:nth-child(4) a {
+	background-image: url(images/pencil.png);
+}
+
+#stable li:hover {
+	background-color: #33d2fd;
+	padding-bottom: 26px;
+}
+#stable li:hover p {
+	display: block;
+}
+
